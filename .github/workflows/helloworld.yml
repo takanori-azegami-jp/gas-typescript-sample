@@ -7,9 +7,8 @@ jobs:
   test-hello-world:
     runs-on: node:slim
     steps:
-      # install
       - name: install
-      - run: npm install typescript @types/google-apps-script jest ts-node ts-jest @types/jest
-      # test
+        run: npm install typescript @types/google-apps-script
+        run: npm install jest ts-node ts-jest @types/jest
       - name: test
-      - run: npx jest
+        run: npx jest
