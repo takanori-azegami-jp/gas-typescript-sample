@@ -9,8 +9,7 @@ jobs:
     steps:
       # install
       - name: install
-      - run: npm install typescript @types/google-apps-script
-      - run: npm install  jest  ts-node ts-jest @types/jest
+      - run: npm install typescript @types/google-apps-script jest ts-node ts-jest @types/jest
       # test
       - name: test
       - run: npx jest
