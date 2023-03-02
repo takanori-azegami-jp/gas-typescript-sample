@@ -1,0 +1,3 @@
+#下記ディレクトリ配下の全てのファイルを除外
+node_modules/
+coverage/
